@@ -1,0 +1,91 @@
+.title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Great Vibes', cursive;
+    margin: 60px 0;
+
+}
+
+.subtitle {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+
+}
+
+.subtext {
+    line-height: 1.5;
+
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+article {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+.link {
+    border: 1px solid #333;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 30px;
+    color: #555;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}   
+
+.story2 {
+    width: 50%;
+}
+
+.story1{
+    width: 24%;
+}
+
+img {
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.item:nth-child(1) {
+    padding-left: 25px;
+    background-color: aqua;}
+.item:nth-child(2) {
+    padding-left: 25px;
+    background-color: blue;}
+.item:nth-child(3) {
+    padding-left: 25px;
+    background-color: red;}
+.item:nth-child(4) {
+    padding-left: 25px;
+    background-color: yellow;}
+.item:nth-child(5) {
+    padding-left: 25px;
+    background-color: green;}
